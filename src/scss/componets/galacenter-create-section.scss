@@ -65,6 +65,7 @@
 		letter-spacing: 0.2em;
 		text-transform: uppercase;
 		color: #FFFFFF;
+		margin: 0 0 70px;
 	}
 	&__h3{
 		font-family: $font1;
@@ -91,5 +92,21 @@
 		position: absolute;
 		bottom: 0;
 		right: 100px;
+	}
+	&__price{
+		font-weight: 700;
+		font-size: 32px;
+		line-height: 42px;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+		color: #FFFFFF;
+		margin-bottom: 30px;
+	}
+	&__note{
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 42px;
+		text-transform: lowercase;
+		color: #FFFFFF;
 	}
 }
