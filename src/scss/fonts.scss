@@ -1,5 +1,5 @@
 @font-face {
-	font-family: 'NotoSansArabic';
+	font-family: 'Noto Sans Arabic';
 	src: url('../fonts/NotoSansArabic/NotoSansArabic-Regular.eot');
 	src: url('../fonts/NotoSansArabic/NotoSansArabic-Regular.eot?#iefix') format('embedded-opentype'),
 	url('../fonts/NotoSansArabic/NotoSansArabic-Regular.woff2') format('woff2'),
@@ -10,7 +10,7 @@
 	font-display: swap;
 }
 @font-face {
-	font-family: 'NotoSansTamil';
+	font-family: 'Noto Sans Tamil';
 	src: url('../fonts/NotoSansTamil/NotoSansTamil-Regular.eot');
 	src: url('../fonts/NotoSansTamil/NotoSansTamil-Regular.eot?#iefix') format('embedded-opentype'),
 	url('../fonts/NotoSansTamil/NotoSansTamil-Regular.woff2') format('woff2'),
@@ -21,6 +21,44 @@
 	font-display: swap;
 }
 
+@font-face {
+	font-family: 'Noto Sans';
+	src: url('../fonts/NotoSans/NotoSans-Bold.woff2') format('woff2'),
+	url('../fonts/NotoSans/NotoSans-Bold.woff') format('woff'),
+	url('../fonts/NotoSans/NotoSans-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Noto Sans';
+	src: url('../fonts/NotoSans/NotoSans-Medium.woff2') format('woff2'),
+	url('../fonts/NotoSans/NotoSans-Medium.woff') format('woff'),
+	url('../fonts/NotoSans/NotoSans-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Noto Sans';
+	src: url('../fonts/NotoSans/NotoSans-Light.woff2') format('woff2'),
+	url('../fonts/NotoSans/NotoSans-Light.woff') format('woff'),
+	url('../fonts/NotoSans/NotoSans-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Noto Sans';
+	src: url('../fonts/NotoSans/NotoSans-ExtraLight.woff2') format('woff2'),
+	url('../fonts/NotoSans/NotoSans-ExtraLight.woff') format('woff'),
+	url('../fonts/NotoSans/NotoSans-ExtraLight.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
 
-$font1: 'NotoSansArabic', sans-serif;
-$font2: 'NotoSansTamil', sans-serif;
+
+$font1: 'Noto Sans', sans-serif;
+$font2: 'Noto Sans Arabic', sans-serif;
+$font3: 'Noto Sans Tamil', sans-serif;

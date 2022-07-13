@@ -12,6 +12,7 @@ body{
 	margin-top: 0;
 }
 .btn{
+	font-family: $font1;
 	display: inline-block;
 	font-weight: 200;
 	font-size: 20px;
@@ -43,13 +44,22 @@ body{
 
 		&:hover {
 			color: #fff;
-			background-color: #fff;
-			border-color: #fff;
+			background-color: #000;
+			border-color: #000;
 		}
 		&:focus {
 			box-shadow: 0 0 0 0.2rem rgb(0,123,255 , 50%);
 		}
 	}
 }
-
-@import "componets/banner-ikea";
+.container{
+	max-width: 1240px;
+	width: 100%;
+}
+.text-right{
+	text-align: right;
+}
+@import "componets/galacenter-create-section";
+@import "componets/galacenter-create-menu";
+@import "componets/galacenter-create-about";
+@import "componets/galacenter-create-form";

@@ -1,0 +1,29 @@
+.galacenter-create-menu{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 16px;
+	list-style: none;
+	position: absolute;
+	top: 100px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	max-width: 1240px;
+	&__item{}
+	&__link{
+		font-family: $font1;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 20px;
+		letter-spacing: 0.2em;
+		text-transform: lowercase;
+		color: #FFFFFF;
+		text-shadow: 0 0 45px #000000;
+		text-decoration: none;
+		&:hover,
+		&.active{
+			text-decoration: underline;
+		}
+	}
+}
