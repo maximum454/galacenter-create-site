@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'NotoSansArabic';
+	src: url('../fonts/NotoSansArabic/NotoSansArabic-Regular.eot');
+	src: url('../fonts/NotoSansArabic/NotoSansArabic-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/NotoSansArabic/NotoSansArabic-Regular.woff2') format('woff2'),
+	url('../fonts/NotoSansArabic/NotoSansArabic-Regular.woff') format('woff'),
+	url('../fonts/NotoSansArabic/NotoSansArabic-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'NotoSansTamil';
+	src: url('../fonts/NotoSansTamil/NotoSansTamil-Regular.eot');
+	src: url('../fonts/NotoSansTamil/NotoSansTamil-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/NotoSansTamil/NotoSansTamil-Regular.woff2') format('woff2'),
+	url('../fonts/NotoSansTamil/NotoSansTamil-Regular.woff') format('woff'),
+	url('../fonts/NotoSansTamil/NotoSansTamil-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+$font1: 'NotoSansArabic', sans-serif;
+$font2: 'NotoSansTamil', sans-serif;

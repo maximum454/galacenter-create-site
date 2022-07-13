@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @@include('./template/_meta.html')
+    <title>создание готового сайта.</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://www.galacentre.ru/local/templates/common/css/galacenter.css">
+    <link rel="stylesheet" href="css/galacenter-create.css">
+</head>
+<body>
+<div class="wrp">
+    <!--@@include('./template/_header.html')-->
+
+    <main class="main container">
+        <div id="fullpage">
+            <div class="section section-1">
+                <ul id="myMenu">
+                    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">First section</a></li>
+                    <li data-menuanchor="secondPage"><a href="#secondPage">Second section</a></li>
+                    <li data-menuanchor="thirdPage"><a href="#thirdPage">Third section</a></li>
+                    <li data-menuanchor="fourthPage"><a href="#fourthPage">Fourth section</a></li>
+                </ul>
+                <h1>создание готового сайта</h1>
+                <h3>универсальный интернет-магазин для вашего бизнеса</h3>
+                <p>Гала-Центр предлагает универсальное решение для тех,
+                    у кого еще нет своего сайта: создание интернет-магазина
+                    без навыков программирования или профессиональной
+                    команды. Принимайте, обрабатывайте заказы
+                    и зарабатывайте на своём сайте.</p>
+                <a href="" class="btn btn-outline-primary">создать сайт</a>
+            </div>
+            <div class="section">
+                <div class="slide" data-anchor="slide1">Two 1</div>
+                <div class="slide" data-anchor="slide2">Two 2</div>
+            </div>
+            <div class="section">Three</div>
+            <div class="section">Four</div>
+        </div>
+
+    </main>
+    <!--@@include('./template/_footer.html')-->
+    <!--@@include('./template/_modal.html')-->
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="https://www.galacentre.ru/local/templates/common/js/galacenter.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="js/galacenter-create.js"></script>
+</body>
+</html>
