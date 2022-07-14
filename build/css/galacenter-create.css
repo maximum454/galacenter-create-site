@@ -536,7 +536,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
-  background-image: url("../img/bg-1.jpg");
+  background-image: url("../img/bg-1.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 40px 0;
@@ -704,8 +704,17 @@ body {
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("../img/bg-2.jpg");
+  background-image: url("../img/bg-2.png");
   padding: 40px 0;
+}
+
+.galacenter-create-product--cability {
+  background-image: url("../img/bg-1.png");
+}
+
+.galacenter-create-product--cability .galacenter-create-product__body {
+  max-width: 800px;
+  margin-left: 0;
 }
 
 .galacenter-create-product__body {
@@ -721,7 +730,7 @@ body {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #FFFFFF;
-  margin: 0 0 70px;
+  margin: 0 0 70px 80px;
 }
 
 .galacenter-create-section {
@@ -737,32 +746,9 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
-  background-image: url("../img/bg-1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.galacenter-create-section--item4 {
-  background-image: url("../img/bg-4.jpg");
-}
-
-.galacenter-create-section--item5 {
-  background-image: url("../img/bg-5.jpg");
-}
-
-.galacenter-create-section--item6 {
-  background-image: url("../img/bg-4.jpg");
-}
-
-.galacenter-create-section__h1 {
-  font-family: "Noto Sans", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 45px;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  margin: 0 0 41px;
+  background-image: url("../img/bg-4.png");
+  background-size: 100%;
+  padding: 40px 0;
 }
 
 .galacenter-create-section__h2 {
@@ -786,15 +772,6 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
   margin: 0 0 41px;
-}
-
-.galacenter-create-section__paragraf {
-  font-family: "Noto Sans", sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 42px;
-  color: #FFFFFF;
 }
 
 .galacenter-create-section__figure {
@@ -824,7 +801,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
-  background-image: url("../img/bg-1.jpg");
+  background-image: url("../img/bg-1.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1017,7 +994,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
-  background-image: url("../img/bg-2.jpg");
+  background-image: url("../img/bg-2.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 40px 0;
@@ -1043,7 +1020,7 @@ body {
 
 @media only screen and (max-width: 767px) {
   .galacenter-create-header {
-    background-image: url("../img/bg-1-mobile.jpg");
+    background-image: url("../img/bg-1-mobile.png");
   }
 
   .galacenter-create-header__h1 {

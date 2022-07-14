@@ -6,8 +6,15 @@
 	position: relative;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-image: url("../img/bg-2.jpg");
+	background-image: url("../img/bg-2.png");
 	padding: 40px 0;
+	&--cability{
+		background-image: url("../img/bg-1.png");
+		.galacenter-create-product__body{
+			max-width: 800px;
+			margin-left: 0;
+		}
+	}
 	&__body{
 		max-width: 800px;
 		margin-left: auto;
@@ -20,7 +27,7 @@
 		letter-spacing: 0.2em;
 		text-transform: uppercase;
 		color: #FFFFFF;
-		margin: 0 0 70px;
+		margin: 0 0 70px 80px;
 	}
 	@include r(767){
 		background-image: url("../img/bg-3-mobile.png");

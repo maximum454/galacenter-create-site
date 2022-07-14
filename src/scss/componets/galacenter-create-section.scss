@@ -4,36 +4,11 @@
 	flex-direction: column;
 	justify-content: center;
 	position: relative;
-	background-image: url("../img/bg-1.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	&--item3{
+	background-image: url("../img/bg-4.png");
+	background-size: 100%;
+	padding: 40px 0;
+	&--second{
 
-	}
-	&--item4{
-		background-image: url("../img/bg-4.jpg");
-	}
-	&--item5{
-		background-image: url("../img/bg-5.jpg");
-	}
-	&--item6{
-		background-image: url("../img/bg-4.jpg");
-	}
-	&--item7{
-
-	}
-	&--item8{
-
-	}
-	&__h1{
-		font-family:$font1;
-		font-style: normal;
-		font-weight: 700;
-		font-size: 36px;
-		line-height: 45px;
-		text-transform: uppercase;
-		color: #FFFFFF;
-		margin: 0 0 41px;
 	}
 	&__h2{
 		font-family: $font1;
@@ -57,14 +32,6 @@
 		margin: 0 0 41px;
 	}
 	&__body{
-	}
-	&__paragraf{
-		font-family: $font1;
-		font-style: normal;
-		font-weight: 300;
-		font-size: 20px;
-		line-height: 42px;
-		color: #FFFFFF;
 	}
 
 	&__figure{
