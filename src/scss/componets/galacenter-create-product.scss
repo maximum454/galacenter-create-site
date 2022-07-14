@@ -33,6 +33,10 @@
 		background-image: url("../img/bg-3-mobile.png");
 		&--cability{
 			background-image: url("../img/bg-4-mobile.png");
+			.galacenter-create-product__h2{
+				text-align: left;
+				margin-left: 0;
+			}
 		}
 		&__h2{
 			font-size: 15px;

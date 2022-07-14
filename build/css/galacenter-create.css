@@ -1104,6 +1104,11 @@ body {
     background-image: url("../img/bg-4-mobile.png");
   }
 
+  .galacenter-create-product--cability .galacenter-create-product__h2 {
+    text-align: left;
+    margin-left: 0;
+  }
+
   .galacenter-create-product__h2 {
     font-size: 15px;
     line-height: 42px;
