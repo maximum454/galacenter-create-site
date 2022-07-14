@@ -807,14 +807,17 @@ body {
   margin: 0;
 }
 
-.galacenter-create-form__body {
-  max-width: 525px;
-  margin-right: 0;
+.galacenter-create-form {
+  max-width: 786px;
   margin-left: auto;
 }
 
+.galacenter-create-form__body {
+  max-width: 525px;
+  margin: 0 50px 0 auto;
+}
+
 .galacenter-create-form__footer {
-  margin-right: -90px;
   text-align: right;
 }
 
@@ -1042,5 +1045,57 @@ body {
 
   .galacenter-create-menu__item {
     margin-bottom: 31px;
+  }
+
+  .galacenter-create-form__body {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .galacenter-create-form__footer {
+    text-align: center;
+  }
+
+  .galacenter-create-form p {
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .galacenter-create-form .checkbox-custom {
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 11px;
+  }
+
+  .galacenter-create-form .checkmark {
+    height: 20px;
+    width: 20px;
+    border: 2px solid #fff;
+  }
+
+  .galacenter-create-form .checkbox-custom .checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 4px;
+    height: 8px;
+  }
+
+  .galacenter-create-footer {
+    background-image: url("../img/bg-2-mobile.jpg");
+  }
+
+  .galacenter-create-footer__h2 {
+    font-size: 15px;
+    line-height: 25px;
+    margin: 0 0 25px;
+  }
+
+  .galacenter-create-footer .btn {
+    display: block;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
   }
 }

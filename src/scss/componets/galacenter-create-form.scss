@@ -1,11 +1,11 @@
 .galacenter-create-form{
+	max-width: 786px;
+	margin-left: auto;
 	&__body{
 		max-width: 525px;
-		margin-right: 0;
-		margin-left: auto;
+		margin: 0 50px 0 auto;
 	}
 	&__footer{
-		margin-right: -90px;
 		text-align: right;
 	}
 	p{
@@ -108,5 +108,35 @@
 		-webkit-transform: rotate(45deg);
 		-ms-transform: rotate(45deg);
 		transform: rotate(45deg);
+	}
+	@include r(767){
+		&__body{
+			max-width: 100%;
+			margin: 0 auto;
+		}
+		&__footer{
+			text-align: center;
+		}
+		p{
+			font-size: 14px;
+			line-height: 25px;
+			text-align: center;
+		}
+		.checkbox-custom {
+			font-size: 14px;
+			line-height: 25px;
+			margin-top: 11px;
+		}
+		.checkmark {
+			height: 20px;
+			width: 20px;
+			border: 2px solid #fff;
+		}
+		.checkbox-custom .checkmark:after {
+			left: 6px;
+			top: 2px;
+			width: 4px;
+			height: 8px;
+		}
 	}
 }
