@@ -40,6 +40,10 @@
 		&::placeholder{
 			color: #fff;
 		}
+		&:focus{
+			outline: none;
+			border-color: #1b1e21;
+		}
 	}
 	.btn{
 		margin-right: 0;

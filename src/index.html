@@ -12,10 +12,16 @@
     <!--@@include('./template/_header.html')-->
 
     <main class="main">
-        <div class="galacenter-create-section galacenter-create-section--item1">
+        <div class="galacenter-create-header">
             <div class="container">
-                <div class="galacenter-create-section__body">
-                    <ul class="galacenter-create-menu" id="Menu">
+                <div class="galacenter-create-header__body">
+                    <div class="galacenter-create-menu">
+                        <div class="galacenter-create-menu__burger js-burger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <ul class="galacenter-create-menu__list" id="Menu">
                         <li data-menuanchor="firstPage" class="galacenter-create-menu__item active">
                             <a href="#firstPage" class="galacenter-create-menu__link">о продукте</a>
                         </li>
@@ -32,20 +38,22 @@
                             <a href="#fourthPage" class="galacenter-create-menu__link">цена</a>
                         </li>
                     </ul>
-                    <h1 class="galacenter-create-section__h1">создание готового сайта</h1>
-                    <h3 class="galacenter-create-section__h3">универсальный интернет-магазин для вашего бизнеса</h3>
-                    <p class="galacenter-create-section__paragraf">Гала-Центр предлагает универсальное решение для тех,
+                    </div>
+                    <h1 class="galacenter-create-header__h1">создание готового сайта</h1>
+                    <h3 class="galacenter-create-header__h3">универсальный интернет-магазин для вашего бизнеса</h3>
+                    <p class="galacenter-create-header__paragraf">Гала-Центр предлагает универсальное решение для тех,
                         у кого еще нет своего сайта: создание интернет-магазина
                         без навыков программирования или профессиональной
                         команды. Принимайте, обрабатывайте заказы
                         и зарабатывайте на своём сайте.</p>
                     <a href="" class="btn btn-outline-primary">создать сайт</a>
                 </div>
-                <div class="galacenter-create-section__logo">
+                <div class="galacenter-create-header__logo">
                     <img class="img-fluid" src="./img/logo.png" width="189" height="180" alt="">
                 </div>
             </div>
         </div>
+
         <div class="galacenter-create-section galacenter-create-section--item2">
             <div class="container">
                 <div class="galacenter-create-section__body">
@@ -119,21 +127,21 @@
                     <h2 class="galacenter-create-section__h2">настройки главной страницы</h2>
                     <img class="img-fluid" src="./img/option1.png" width="1226" height="768" alt="">
                 </div>
-            </div>
-        </div>
-        <div class="galacenter-create-section galacenter-create-section--item5">
-            <div class="container">
                 <div class="galacenter-create-section__body">
                     <h2 class="galacenter-create-section__h2">варианты шапки</h2>
                     <img class="img-fluid" src="./img/option2.png" width="1079" height="286" alt="">
                 </div>
-            </div>
-        </div>
-        <div class="galacenter-create-section galacenter-create-section--item6">
-            <div class="container">
                 <div class="galacenter-create-section__body">
                     <h2 class="galacenter-create-section__h2 text-right">варианты каталога</h2>
-                    <img class="img-fluid" src="./img/option2.png" width="1079" height="286" alt="">
+                    <figure class="galacenter-create-section__figure">
+                        <figcaption>горизонтальное меню</figcaption>
+                        <img class="img-fluid" src="./img/gorizont-menu.png" width="754" height="448" alt="">
+                    </figure>
+                    <figure class="galacenter-create-section__figure">
+                        <figcaption>вертикальное меню</figcaption>
+                        <img class="img-fluid" src="./img/vertical-menu.png" width="846" height="549" alt="">
+                    </figure>
+
                 </div>
             </div>
         </div>
@@ -195,12 +203,12 @@
                 </div>
             </div>
         </div>
-        <div class="galacenter-create-section galacenter-create-section--item9">
+
+        <div class="galacenter-create-footer">
             <div class="container">
-                <div class="galacenter-create-section__body">
-                    <form class="galacenter-create-form" action="">
-                        <div class="galacenter-create-form__body">
-                            <h2 class="galacenter-create-section__h2">оставьте заявку на подключение</h2>
+                <form class="galacenter-create-form" action="">
+                    <div class="galacenter-create-form__body">
+                        <h2 class="galacenter-create-footer__h2">оставьте заявку на подключение</h2>
                         <div class="form-group">
                             <input class="form-control" type="text" placeholder="Ф.И.О">
                         </div>
@@ -216,16 +224,15 @@
                         <div class="form-group text-right">
                             <button class="btn btn-outline-primary" type="button">оставить заявку</button>
                         </div>
-                        </div>
-                        <div class="galacenter-create-form__footer">
-                            <p>Отправляя заявку, вы принимаете условия <a href=""><span>пользовательского соглашения</span></a></p>
-                            <label class="checkbox-custom">Подписаться на рассылку от Гала-Центр
-                                <input type="checkbox" checked="checked">
-                                <span class="checkmark"></span>
-                            </label>
-                        </div>
-                    </form>
-                </div>
+                    </div>
+                    <div class="galacenter-create-form__footer">
+                        <p>Отправляя заявку, вы принимаете условия <a href=""><span>пользовательского соглашения</span></a></p>
+                        <label class="checkbox-custom">Подписаться на рассылку от Гала-Центр
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                </form>
             </div>
         </div>
     </main>

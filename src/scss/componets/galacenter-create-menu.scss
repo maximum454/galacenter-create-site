@@ -1,14 +1,35 @@
 .galacenter-create-menu{
-	display: flex;
-	justify-content: space-between;
-	padding: 0 16px;
+	padding: 0;
 	list-style: none;
-	position: absolute;
-	top: 100px;
-	left: 0;
-	right: 0;
-	margin: 0 auto;
+	position: relative;
+	margin: 0 auto 87px;
 	max-width: 1240px;
+	&__burger{
+		display: none;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 32px;
+		height: 24px;
+		span{
+			display: block;
+			height: 4px;
+			width: 100%;
+			background-color: #fff;
+			border-radius: 5px;
+		}
+		.active{
+			span{
+
+			}
+		}
+	}
+	&__list{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		justify-content: space-between;
+	}
 	&__item{}
 	&__link{
 		font-family: $font1;
@@ -24,6 +45,31 @@
 		&:hover,
 		&.active{
 			text-decoration: underline;
+		}
+	}
+	@include r(1023){
+		&__link{
+			font-size: 15px;
+			line-height: 20px;
+		}
+	}
+	@include r(767){
+		margin-bottom: 32px;
+		&__burger{
+			display: flex;
+		}
+		&__list{
+			list-style: none;
+			margin: 32px 0 32px 48px;
+			padding: 0;
+			display: none;
+			justify-content: space-between;
+			&.active{
+				display: block;
+			}
+		}
+		&__item{
+			margin-bottom: 31px;
 		}
 	}
 }

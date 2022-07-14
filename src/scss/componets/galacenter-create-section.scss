@@ -7,18 +7,6 @@
 	background-image: url("../img/bg-1.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	&--item1{
-		.galacenter-create-section__paragraf{
-			font-family: $font1;
-			font-style: normal;
-			font-weight: 300;
-			font-size: 20px;
-			line-height: 42px;
-			color: #FFFFFF;
-			margin-bottom: 50px;
-			max-width: 577px;
-		}
-	}
 	&--item2{
 		background-image: url("../img/bg-2.jpg");
 		.galacenter-create-section__body{
@@ -43,9 +31,6 @@
 	}
 	&--item8{
 
-	}
-	&--item9{
-		background-image: url("../img/bg-2.jpg");
 	}
 	&__h1{
 		font-family:$font1;
@@ -108,5 +93,16 @@
 		line-height: 42px;
 		text-transform: lowercase;
 		color: #FFFFFF;
+	}
+	&__figure{
+		margin: 0;
+		figcaption{
+			font-weight: 900;
+			font-size: 20px;
+			line-height: 42px;
+			text-transform: capitalize;
+			color: #FFFFFF;
+			margin: 0 0 32px;
+		}
 	}
 }
