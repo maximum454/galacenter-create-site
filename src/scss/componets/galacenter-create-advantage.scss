@@ -1,0 +1,56 @@
+.galacenter-create-advantage{
+	min-height: 100vh;
+	padding: 40px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+	background-image: url("../img/bg-1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	&__h2{
+		font-family: $font1;
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 42px;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+		color: #FFFFFF;
+		margin: 0 0 70px;
+	}
+	&__price{
+		font-weight: 700;
+		font-size: 32px;
+		line-height: 42px;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+		color: #FFFFFF;
+		margin-bottom: 30px;
+	}
+	&__note{
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 42px;
+		text-transform: lowercase;
+		color: #FFFFFF;
+	}
+	@include r(767){
+		background-image: url("../img/bg-3-mobile.png");
+		&__h2{
+			font-size: 15px;
+			line-height: 42px;
+			margin-bottom: 32px;
+			text-align: right;
+		}
+		&__price{
+			font-size: 24px;
+			line-height: 42px;
+			margin-bottom: 23px;
+			text-align: right;
+		}
+		&__note{
+			font-size: 14px;
+			line-height: 25px;
+		}
+	}
+}

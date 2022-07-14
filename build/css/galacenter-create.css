@@ -593,125 +593,6 @@ body {
   margin: 0 0 41px;
 }
 
-.galacenter-create-section {
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  position: relative;
-  background-image: url("../img/bg-1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.galacenter-create-section--item2 {
-  background-image: url("../img/bg-2.jpg");
-}
-
-.galacenter-create-section--item2 .galacenter-create-section__body {
-  max-width: 800px;
-  margin-left: auto;
-}
-
-.galacenter-create-section--item4 {
-  background-image: url("../img/bg-4.jpg");
-}
-
-.galacenter-create-section--item5 {
-  background-image: url("../img/bg-5.jpg");
-}
-
-.galacenter-create-section--item6 {
-  background-image: url("../img/bg-4.jpg");
-}
-
-.galacenter-create-section__h1 {
-  font-family: "Noto Sans", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 45px;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  margin: 0 0 41px;
-}
-
-.galacenter-create-section__h2 {
-  font-family: "Noto Sans", sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 42px;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  margin: 0 0 70px;
-}
-
-.galacenter-create-section__h3 {
-  font-family: "Noto Sans", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 42px;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  margin: 0 0 41px;
-}
-
-.galacenter-create-section__paragraf {
-  font-family: "Noto Sans", sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 42px;
-  color: #FFFFFF;
-}
-
-.galacenter-create-section__logo {
-  position: absolute;
-  bottom: 0;
-  right: 100px;
-}
-
-.galacenter-create-section__price {
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 42px;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  margin-bottom: 30px;
-}
-
-.galacenter-create-section__note {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 42px;
-  text-transform: lowercase;
-  color: #FFFFFF;
-}
-
-.galacenter-create-section__figure {
-  margin: 0;
-}
-
-.galacenter-create-section__figure figcaption {
-  font-weight: 900;
-  font-size: 20px;
-  line-height: 42px;
-  text-transform: capitalize;
-  color: #FFFFFF;
-  margin: 0 0 32px;
-}
-
 .galacenter-create-menu {
   padding: 0;
   list-style: none;
@@ -780,11 +661,12 @@ body {
 .galacenter-create-about__item {
   position: relative;
   margin-bottom: 46px;
+  padding-left: 80px;
 }
 
 .galacenter-create-about__icon {
   top: 0;
-  left: -80px;
+  left: 0;
   position: absolute;
 }
 
@@ -805,6 +687,175 @@ body {
   line-height: 42px;
   color: #FFFFFF;
   margin: 0;
+}
+
+.galacenter-create-product {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../img/bg-2.jpg");
+  padding: 40px 0;
+}
+
+.galacenter-create-product__body {
+  max-width: 800px;
+  margin-left: auto;
+}
+
+.galacenter-create-product__h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 42px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0 0 70px;
+}
+
+.galacenter-create-section {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  background-image: url("../img/bg-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.galacenter-create-section--item4 {
+  background-image: url("../img/bg-4.jpg");
+}
+
+.galacenter-create-section--item5 {
+  background-image: url("../img/bg-5.jpg");
+}
+
+.galacenter-create-section--item6 {
+  background-image: url("../img/bg-4.jpg");
+}
+
+.galacenter-create-section__h1 {
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0 0 41px;
+}
+
+.galacenter-create-section__h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 42px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0 0 70px;
+}
+
+.galacenter-create-section__h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 42px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0 0 41px;
+}
+
+.galacenter-create-section__paragraf {
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 42px;
+  color: #FFFFFF;
+}
+
+.galacenter-create-section__figure {
+  margin: 0;
+}
+
+.galacenter-create-section__figure figcaption {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 42px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin: 0 0 32px;
+}
+
+.galacenter-create-advantage {
+  min-height: 100vh;
+  padding: 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  background-image: url("../img/bg-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.galacenter-create-advantage__h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 42px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0 0 70px;
+}
+
+.galacenter-create-advantage__price {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.galacenter-create-advantage__note {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 42px;
+  text-transform: lowercase;
+  color: #FFFFFF;
 }
 
 .galacenter-create-form {
@@ -969,6 +1020,7 @@ body {
   background-image: url("../img/bg-2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  padding: 40px 0;
 }
 
 .galacenter-create-footer__h2 {
@@ -1047,6 +1099,64 @@ body {
     margin-bottom: 31px;
   }
 
+  .galacenter-create-about__item {
+    margin-bottom: 23px;
+    padding-left: 35px;
+  }
+
+  .galacenter-create-about__icon {
+    max-width: 20px;
+    top: 11px;
+  }
+
+  .galacenter-create-about__name {
+    font-size: 14px;
+    line-height: 42px;
+  }
+
+  .galacenter-create-about__text {
+    font-size: 14px;
+    line-height: 42px;
+  }
+
+  .galacenter-create-product {
+    background-image: url("../img/bg-3-mobile.png");
+  }
+
+  .galacenter-create-product--cability {
+    background-image: url("../img/bg-4-mobile.png");
+  }
+
+  .galacenter-create-product__h2 {
+    font-size: 15px;
+    line-height: 42px;
+    margin-bottom: 32px;
+    text-align: right;
+  }
+
+  .galacenter-create-advantage {
+    background-image: url("../img/bg-3-mobile.png");
+  }
+
+  .galacenter-create-advantage__h2 {
+    font-size: 15px;
+    line-height: 42px;
+    margin-bottom: 32px;
+    text-align: right;
+  }
+
+  .galacenter-create-advantage__price {
+    font-size: 24px;
+    line-height: 42px;
+    margin-bottom: 23px;
+    text-align: right;
+  }
+
+  .galacenter-create-advantage__note {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
   .galacenter-create-form__body {
     max-width: 100%;
     margin: 0 auto;
@@ -1082,7 +1192,7 @@ body {
   }
 
   .galacenter-create-footer {
-    background-image: url("../img/bg-2-mobile.jpg");
+    background-image: url("../img/bg-2-mobile.png");
   }
 
   .galacenter-create-footer__h2 {

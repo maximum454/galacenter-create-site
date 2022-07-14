@@ -7,13 +7,6 @@
 	background-image: url("../img/bg-1.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	&--item2{
-		background-image: url("../img/bg-2.jpg");
-		.galacenter-create-section__body{
-			max-width: 800px;
-			margin-left: auto;
-		}
-	}
 	&--item3{
 
 	}
@@ -73,27 +66,7 @@
 		line-height: 42px;
 		color: #FFFFFF;
 	}
-	&__logo{
-		position: absolute;
-		bottom: 0;
-		right: 100px;
-	}
-	&__price{
-		font-weight: 700;
-		font-size: 32px;
-		line-height: 42px;
-		letter-spacing: 0.2em;
-		text-transform: uppercase;
-		color: #FFFFFF;
-		margin-bottom: 30px;
-	}
-	&__note{
-		font-weight: 500;
-		font-size: 20px;
-		line-height: 42px;
-		text-transform: lowercase;
-		color: #FFFFFF;
-	}
+
 	&__figure{
 		margin: 0;
 		figcaption{

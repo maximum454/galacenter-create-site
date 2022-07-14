@@ -1,13 +1,17 @@
-.galacenter-create-footer{
+.galacenter-create-product{
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	position: relative;
-	background-image: url("../img/bg-2.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-image: url("../img/bg-2.jpg");
 	padding: 40px 0;
+	&__body{
+		max-width: 800px;
+		margin-left: auto;
+	}
 	&__h2{
 		font-family: $font1;
 		font-weight: 700;
@@ -19,16 +23,15 @@
 		margin: 0 0 70px;
 	}
 	@include r(767){
-		background-image: url("../img/bg-2-mobile.png");
+		background-image: url("../img/bg-3-mobile.png");
+		&--cability{
+			background-image: url("../img/bg-4-mobile.png");
+		}
 		&__h2{
 			font-size: 15px;
-			line-height: 25px;
-			margin: 0 0 25px;
-		}
-		.btn{
-			display: block;
-			width: fit-content;
-			margin: 0 auto;
+			line-height: 42px;
+			margin-bottom: 32px;
+			text-align: right;
 		}
 	}
 }
