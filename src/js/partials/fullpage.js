@@ -4115,9 +4115,12 @@
     */
     function toArray(objectData){
         return Object.keys(objectData).map(function(key) {
+            console.log(key)
            return objectData[key];
         });
     }
+
+
 
     /**
     * forEach polyfill for IE
