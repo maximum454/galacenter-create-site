@@ -1,14 +1,12 @@
 .galacenter-create-section{
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	position: relative;
-	background-image: url("../img/bg-4.png");
-	background-size: 100%;
-	padding: 40px 0;
-	&--second{
-
+	&__body{
+		min-height: 100vh;
+		background-image: url("../img/bg-4.png");
+		background-size: 100%;
+		padding: 40px 0;
+		&--bg2{
+			background-image: url("../img/bg-3.png");
+		}
 	}
 	&__h2{
 		font-family: $font1;
@@ -19,30 +17,52 @@
 		text-transform: uppercase;
 		color: #FFFFFF;
 		margin: 0 0 70px;
+		text-align: right;
 	}
-	&__h3{
-		font-family: $font1;
-		font-style: normal;
-		font-weight: 700;
-		font-size: 20px;
-		line-height: 42px;
-		letter-spacing: 0.2em;
-		text-transform: uppercase;
-		color: #FFFFFF;
-		margin: 0 0 41px;
-	}
-	&__body{
-	}
+	&__figure-body{
+		position: relative;
+		.galacenter-create-section__figure{
 
+		}
+	}
 	&__figure{
-		margin: 0;
+		text-align: center;
+		position: relative;
+		z-index: 2;
+		width: fit-content;
+		margin: 0 auto;
 		figcaption{
 			font-weight: 900;
 			font-size: 20px;
 			line-height: 42px;
-			text-transform: capitalize;
 			color: #FFFFFF;
 			margin: 0 0 32px;
+		}
+		&--menu1{
+			margin-left: 100px;
+			figcaption{
+				text-align: center;
+			}
+		}
+		&--menu2{
+			margin-top: -380px;
+			margin-left: auto;
+			margin-right: 0;
+			text-align: right;
+		}
+		&--header1{
+			position: relative;
+			left: 124px;
+			margin-bottom: -85px;
+			z-index: 1;
+		}
+	}
+	&__dropdown{
+		margin-bottom: 70px;
+	}
+	@include r(767){
+		&__dropdown{
+			display: none;
 		}
 	}
 }

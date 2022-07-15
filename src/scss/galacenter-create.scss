@@ -59,6 +59,36 @@ body{
 .text-right{
 	text-align: right;
 }
+.d-none {
+	display: none !important;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.d-block {
+	display: block;
+}
+
+.d-desktop-none {
+	display: none;
+	@include r(767) {
+		display: block;
+	}
+}
+
+.d-mobile-none {
+	display: block;
+	@include r(767) {
+		display: none !important;
+	}
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
 @import "componets/galacenter-create-header";
 @import "componets/galacenter-create-menu";
 @import "componets/galacenter-create-about";
