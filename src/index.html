@@ -136,7 +136,7 @@
         <div class="galacenter-create-section">
             <div class="galacenter-create-section__body">
                 <div class="container">
-                    <h2 class="galacenter-create-section__h2">настройки главной страницы</h2>
+                    <h2 class="galacenter-create-section__h2" data-remodal-target="main">настройки главной страницы</h2>
                     <div class="galacenter-create-section__dropdown">
                         <figure class="galacenter-create-section__figure">
                             <figcaption></figcaption>
@@ -144,14 +144,14 @@
                         </figure>
                     </div>
 
-                    <h2 class="galacenter-create-section__h2">варианты шапки</h2>
+                    <h2 class="galacenter-create-section__h2" data-remodal-target="header1">варианты шапки</h2>
                     <div class="galacenter-create-section__dropdown">
                         <figure class="galacenter-create-section__figure galacenter-create-section__figure--header1">
                             <figcaption></figcaption>
                             <img class="img-fluid" src="./img/option2.png" width="1079" height="286" alt="">
                         </figure>
                     </div>
-                    <h2 class="galacenter-create-section__h2 d-desktop-none">варианты шапки 2</h2>
+                    <h2 class="galacenter-create-section__h2 d-desktop-none" data-remodal-target="header2">варианты шапки 2</h2>
                     <div class="galacenter-create-section__dropdown">
                         <figure class="galacenter-create-section__figure">
                             <figcaption></figcaption>
@@ -159,7 +159,7 @@
                         </figure>
                     </div>
 
-                    <h2 class="galacenter-create-section__h2">варианты каталога</h2>
+                    <h2 class="galacenter-create-section__h2 d-mobile-none" >варианты каталога</h2>
                     <div class="galacenter-create-section__dropdown">
                         <div class="galacenter-create-section__figure-body">
                             <figure class="galacenter-create-section__figure galacenter-create-section__figure--menu1">
@@ -172,12 +172,16 @@
                             </figure>
                         </div>
                     </div>
+
+                    <h2 class="galacenter-create-section__h2 d-desktop-none" data-remodal-target="gorizont-menu">Горизонтальное меню
+                    </h2>
+                    <h2 class="galacenter-create-section__h2 d-desktop-none" data-remodal-target="vertical-menu">Вертикальное меню</h2>
                 </div>
             </div>
 
             <div class="galacenter-create-section__body galacenter-create-section__body--bg2">
                 <div class="container">
-                    <h2 class="galacenter-create-section__h2">варианты слайдера</h2>
+                    <h2 class="galacenter-create-section__h2" data-remodal-target="slider1">варианты слайдера</h2>
                     <div class="galacenter-create-section__dropdown">
                         <div class="galacenter-create-section__figure-body">
                             <figure class="galacenter-create-section__figure galacenter-create-section__figure--slider1">
@@ -185,7 +189,7 @@
                             </figure>
                         </div>
                     </div>
-                    <h2 class="galacenter-create-section__h2 d-desktop-none">варианты слайдера 2</h2>
+                    <h2 class="galacenter-create-section__h2 d-desktop-none" data-remodal-target="slider2">варианты слайдера 2</h2>
                     <div class="galacenter-create-section__dropdown">
                         <div class="galacenter-create-section__figure-body">
                             <figure class="galacenter-create-section__figure  galacenter-create-section__figure--slider2">
@@ -193,7 +197,7 @@
                             </figure>
                         </div>
                     </div>
-                    <h2 class="galacenter-create-section__h2 d-desktop-none">варианты слайдера 3</h2>
+                    <h2 class="galacenter-create-section__h2 d-desktop-none" data-remodal-target="slider3">варианты слайдера 3</h2>
                     <div class="galacenter-create-section__dropdown">
                         <div class="galacenter-create-section__figure-body">
                             <figure class="galacenter-create-section__figure  galacenter-create-section__figure--slider3">
@@ -202,7 +206,7 @@
                         </div>
                     </div>
 
-                    <h2 class="galacenter-create-section__h2 ">функционал каталога</h2>
+                    <h2 class="galacenter-create-section__h2 " data-remodal-target="catalog">функционал каталога</h2>
                     <div class="galacenter-create-section__dropdown">
                         <div class="galacenter-create-section__figure-body">
                             <figure class="galacenter-create-section__figure galacenter-create-section__figure--catalog">
@@ -211,7 +215,7 @@
                         </div>
                     </div>
 
-                    <h2 class="galacenter-create-section__h2 d-desktop-none">Фильтр</h2>
+                    <h2 class="galacenter-create-section__h2 d-desktop-none" data-remodal-target="filter">Фильтр</h2>
                     <div class="galacenter-create-section__dropdown">
                         <div class="galacenter-create-section__figure-body">
                             <figure class="galacenter-create-section__figure galacenter-create-section__figure--filter">
@@ -309,7 +313,7 @@
         </div>
     </main>
     <!--@@include('./template/_footer.html')-->
-    <!--@@include('./template/_modal.html')-->
+    @@include('./template/_modal.html')
 </div>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"

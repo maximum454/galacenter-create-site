@@ -1,3 +1,4 @@
+@@include('./partials/remodal.js')
 
 $(function (){
     $('.js-burger').on('click', function (){

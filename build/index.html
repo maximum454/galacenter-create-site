@@ -161,7 +161,7 @@
         <div class="galacenter-create-section">
             <div class="galacenter-create-section__body">
                 <div class="container">
-                    <h2 class="galacenter-create-section__h2">настройки главной страницы</h2>
+                    <h2 class="galacenter-create-section__h2" data-remodal-target="main">настройки главной страницы</h2>
                     <div class="galacenter-create-section__dropdown">
                         <figure class="galacenter-create-section__figure">
                             <figcaption></figcaption>
@@ -169,14 +169,14 @@
                         </figure>
                     </div>
 
-                    <h2 class="galacenter-create-section__h2">варианты шапки</h2>
+                    <h2 class="galacenter-create-section__h2" data-remodal-target="header1">варианты шапки</h2>
                     <div class="galacenter-create-section__dropdown">
                         <figure class="galacenter-create-section__figure galacenter-create-section__figure--header1">
                             <figcaption></figcaption>
                             <img class="img-fluid" src="./img/option2.png" width="1079" height="286" alt="">
                         </figure>
                     </div>
-                    <h2 class="galacenter-create-section__h2 d-desktop-none">варианты шапки 2</h2>
+                    <h2 class="galacenter-create-section__h2 d-desktop-none" data-remodal-target="header2">варианты шапки 2</h2>
                     <div class="galacenter-create-section__dropdown">
                         <figure class="galacenter-create-section__figure">
                             <figcaption></figcaption>
@@ -184,7 +184,7 @@
                         </figure>
                     </div>
 
-                    <h2 class="galacenter-create-section__h2">варианты каталога</h2>
+                    <h2 class="galacenter-create-section__h2 d-mobile-none" >варианты каталога</h2>
                     <div class="galacenter-create-section__dropdown">
                         <div class="galacenter-create-section__figure-body">
                             <figure class="galacenter-create-section__figure galacenter-create-section__figure--menu1">
@@ -197,12 +197,16 @@
                             </figure>
                         </div>
                     </div>
+
+                    <h2 class="galacenter-create-section__h2 d-desktop-none" data-remodal-target="gorizont-menu">Горизонтальное меню
+                    </h2>
+                    <h2 class="galacenter-create-section__h2 d-desktop-none" data-remodal-target="vertical-menu">Вертикальное меню</h2>
                 </div>
             </div>
 
             <div class="galacenter-create-section__body galacenter-create-section__body--bg2">
                 <div class="container">
-                    <h2 class="galacenter-create-section__h2">варианты слайдера</h2>
+                    <h2 class="galacenter-create-section__h2" data-remodal-target="slider1">варианты слайдера</h2>
                     <div class="galacenter-create-section__dropdown">
                         <div class="galacenter-create-section__figure-body">
                             <figure class="galacenter-create-section__figure galacenter-create-section__figure--slider1">
@@ -210,7 +214,7 @@
                             </figure>
                         </div>
                     </div>
-                    <h2 class="galacenter-create-section__h2 d-desktop-none">варианты слайдера 2</h2>
+                    <h2 class="galacenter-create-section__h2 d-desktop-none" data-remodal-target="slider2">варианты слайдера 2</h2>
                     <div class="galacenter-create-section__dropdown">
                         <div class="galacenter-create-section__figure-body">
                             <figure class="galacenter-create-section__figure  galacenter-create-section__figure--slider2">
@@ -218,7 +222,7 @@
                             </figure>
                         </div>
                     </div>
-                    <h2 class="galacenter-create-section__h2 d-desktop-none">варианты слайдера 3</h2>
+                    <h2 class="galacenter-create-section__h2 d-desktop-none" data-remodal-target="slider3">варианты слайдера 3</h2>
                     <div class="galacenter-create-section__dropdown">
                         <div class="galacenter-create-section__figure-body">
                             <figure class="galacenter-create-section__figure  galacenter-create-section__figure--slider3">
@@ -227,7 +231,7 @@
                         </div>
                     </div>
 
-                    <h2 class="galacenter-create-section__h2 ">функционал каталога</h2>
+                    <h2 class="galacenter-create-section__h2 " data-remodal-target="catalog">функционал каталога</h2>
                     <div class="galacenter-create-section__dropdown">
                         <div class="galacenter-create-section__figure-body">
                             <figure class="galacenter-create-section__figure galacenter-create-section__figure--catalog">
@@ -236,7 +240,7 @@
                         </div>
                     </div>
 
-                    <h2 class="galacenter-create-section__h2 d-desktop-none">Фильтр</h2>
+                    <h2 class="galacenter-create-section__h2 d-desktop-none" data-remodal-target="filter">Фильтр</h2>
                     <div class="galacenter-create-section__dropdown">
                         <div class="galacenter-create-section__figure-body">
                             <figure class="galacenter-create-section__figure galacenter-create-section__figure--filter">
@@ -334,7 +338,126 @@
         </div>
     </main>
     
-    
+    <!--настройки главной страницы -->
+<div class="remodal create-site" data-remodal-id="main">
+    <button data-remodal-action="close" class="remodal-close">
+        <span></span>
+        <span></span>
+    </button>
+    <div class="title">Настройки главной страницы</div>
+    <div class="create-site__body">
+        <img class="img-fluid" src="./img/modal-header-1.png" width="360" height="477" alt="">
+    </div>
+</div>
+
+<!--Вариант шапки 1 -->
+<div class="remodal create-site" data-remodal-id="header1">
+    <button data-remodal-action="close" class="remodal-close">
+        <span></span>
+        <span></span>
+    </button>
+    <div class="title">Вариант шапки 1</div>
+    <div class="create-site__body">
+        <img class="img-fluid" src="./img/modal-header-2.png" width="340" height="143" alt="">
+    </div>
+</div>
+
+<!--Вариант шапки 2 -->
+<div class="remodal create-site" data-remodal-id="header2">
+    <button data-remodal-action="close" class="remodal-close">
+        <span></span>
+        <span></span>
+    </button>
+    <div class="title">Вариант шапки 2</div>
+    <div class="create-site__body">
+        <img class="img-fluid" src="./img/modal-header-3.png" width="330" height="143" alt="">
+    </div>
+</div>
+
+<!--Горизонтальное меню -->
+<div class="remodal create-site" data-remodal-id="gorizont-menu">
+    <button data-remodal-action="close" class="remodal-close">
+        <span></span>
+        <span></span>
+    </button>
+    <div class="title">Горизонтальное меню</div>
+    <div class="create-site__body">
+        <img class="img-fluid" src="./img/modal-menu-1.png" width="292" height="419" alt="">
+    </div>
+</div>
+<!--Вертикальное меню -->
+<div class="remodal create-site" data-remodal-id="vertical-menu">
+    <button data-remodal-action="close" class="remodal-close">
+        <span></span>
+        <span></span>
+    </button>
+    <div class="title">Вертикальное меню</div>
+    <div class="create-site__body">
+        <img class="img-fluid" src="./img/modal-menu-2.png" width="292" height="422" alt="">
+    </div>
+</div>
+
+<!--вариант слайдера 1 -->
+<div class="remodal create-site" data-remodal-id="slider1">
+    <button data-remodal-action="close" class="remodal-close">
+        <span></span>
+        <span></span>
+    </button>
+    <div class="title">вариант слайдера 1</div>
+    <div class="create-site__body">
+        <img class="img-fluid" src="./img/modal-slider-1.png" width="324" height="412" alt="">
+    </div>
+</div>
+
+<!--вариант слайдера 2 -->
+<div class="remodal create-site" data-remodal-id="slider2">
+    <button data-remodal-action="close" class="remodal-close">
+        <span></span>
+        <span></span>
+    </button>
+    <div class="title">вариант слайдера 2</div>
+    <div class="create-site__body">
+        <img class="img-fluid" src="./img/modal-slider-2.png" width="324" height="412" alt="">
+    </div>
+</div>
+
+<!--вариант слайдера 3 -->
+<div class="remodal create-site" data-remodal-id="slider3">
+    <button data-remodal-action="close" class="remodal-close">
+        <span></span>
+        <span></span>
+    </button>
+    <div class="title">вариант слайдера 3</div>
+    <div class="create-site__body">
+        <img class="img-fluid" src="./img/modal-slider-3.png" width="324" height="412" alt="">
+    </div>
+</div>
+
+<!--функционал каталога -->
+<div class="remodal create-site" data-remodal-id="catalog">
+    <button data-remodal-action="close" class="remodal-close">
+        <span></span>
+        <span></span>
+    </button>
+    <div class="title">функционал каталога</div>
+    <div class="create-site__body">
+        <img class="img-fluid" src="./img/modal-catalog.png" width="318" height="405" alt="">
+    </div>
+</div>
+
+<!--Фильтр -->
+<div class="remodal create-site" data-remodal-id="filter">
+    <button data-remodal-action="close" class="remodal-close">
+        <span></span>
+        <span></span>
+    </button>
+    <div class="title">Фильтр</div>
+    <div class="create-site__body create-site__body--center">
+        <img class="img-fluid" src="./img/option-filter.png" width="234" height="434" alt="">
+    </div>
+</div>
+
+
 </div>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
