@@ -14,7 +14,7 @@
 				letter-spacing: 0.2em;
 				text-transform: uppercase;
 				color: #FFFFFF;
-				margin: 0 0 70px;
+				margin: 0 0 70px 80px;
 				text-align: left;
 			}
 		}
@@ -68,15 +68,15 @@
 			z-index: 1;
 		}
 		&--slider1{
-			margin-left: 50px;
+			margin-left: 90px;
 		}
 		&--slider2{
-			margin-left: 0;
+			margin-left: -45px;
 			margin-top: -150px;
 		}
 		&--slider3{
-			margin-left: 60px;
-			margin-top: -150px;
+			margin-left: 111px;
+			margin-top: -142px;
 		}
 		&--catalog{
 			margin-left: 0;
@@ -110,7 +110,7 @@
 	@include r(767){
 		background-image: url("../img/bg-2-mobile.png");
 		background-size: cover;
-		padding: 40px 0;
+		padding: 40px 0 0;
 		min-height: 100vh;
 		display: flex;
 		flex-direction: column;
